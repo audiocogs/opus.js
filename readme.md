@@ -6,10 +6,11 @@ An Opus audio decoder for [aurora.js](https://github.com/audiocogs/aurora.js), p
 ## Browser usage
 
 You can either use [Browserify](http://browserify.org) to build your project using the Node module
-system, or download standalone versions of [aurora.js](), [ogg.js](), and [opus.js]() to 
-include as `<script>` tags on your HTML page.
+system, or download standalone versions of [aurora.js](https://github.com/audiocogs/aurora.js/releases), 
+[ogg.js](https://github.com/audiocogs/ogg.js/releases), and [opus.js](https://github.com/audiocogs/opus.js/releases)
+to include as `<script>` tags on your HTML page.
 
-See the [Aurora.js](http://github.com/audiocogs/aurora.js/wiki) docs for details on using Aurora.js.
+See the [Aurora.js docs](http://github.com/audiocogs/aurora.js/wiki) for details on using Aurora.js.
 
 ## Node usage
 
@@ -28,7 +29,7 @@ AV.Player.fromFile('filename.ogg').play();
 
 In node, requiring `opus.js` automatically loads the `ogg.js` demuxer.
 
-See the [Aurora.js](http://github.com/audiocogs/aurora.js/wiki) docs for more details.
+See the [Aurora.js docs](http://github.com/audiocogs/aurora.js/wiki) for more details.
 
 ## Building from source
 
