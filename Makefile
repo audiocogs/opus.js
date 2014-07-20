@@ -8,6 +8,7 @@ browser: src/*.js libopus
 	./node_modules/.bin/browserify \
 		--global-transform browserify-shim \
 		--bare \
+		--no-detect-globals \
 		. \
 		> build/opus.js
 		
