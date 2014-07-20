@@ -1,0 +1,34 @@
+{
+  "name": "opus.js",
+  "version": "0.1.0",
+  "description": "An Opus audio decoder for aurora.js ported using emscripten",
+  "peerDependencies": {
+    "av": "~0.4.0"
+  },
+  "devDependencies": {
+    "browserify": "^4.1.10",
+    "browserify-shim": "^3.5.0"
+  },
+  "browserify-shim": {
+    "av": "global:AV"
+  },
+  "scripts": {
+    "prepublish": "make libopus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/audiocogs/opus.js.git"
+  },
+  "keywords": [
+    "av",
+    "aurora.js",
+    "audio",
+    "codec"
+  ],
+  "author": "Devon Govett <devongovett@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/audiocogs/opus.js/issues"
+  },
+  "homepage": "https://github.com/audiocogs/opus.js"
+}
