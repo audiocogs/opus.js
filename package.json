@@ -15,7 +15,7 @@
     "ogg.js": "global:AV.OggDemuxer"
   },
   "scripts": {
-    "prepublish": "make libopus"
+    "prepublish": "make"
   },
   "repository": {
     "type": "git",
